@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    width: 180px;
+    flex-wrap: wrap;
+    margin-left: 43%;
+    
+}
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    font-size: 40px;
+}
+
+.box1{
+    border-left:white ;
+    border-top: white;
+}
+.box2{
+   
+    border-top: white;
+}
+.box3{
+    border-right:white ;
+    border-top: white;
+}
+.box4{
+    border-left:white ;
+   
+}
+.box6{
+    border-right:white ;
+   
+}
+.box7{
+    border-left:white ;
+    border-bottom: white;
+}
+.box8{
+    border-bottom:white ;
+    
+}
+.box9{
+    border-bottom: white;
+    border-right:white ;
+}
+.visibilty{
+    visibility: hidden;
+}
+
+.Draw{
+    visibility: hidden;
+}
+.reset{
+    width: 100px;
+    height: 50px;
+    font-size: 20px ;
+    background-color: yellowgreen;
+    color: white;
+}
+
