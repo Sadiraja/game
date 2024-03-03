@@ -1,12 +1,15 @@
 body{
     text-align: center;
-}
 
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
 .game{
     display: flex;
     width: 180px;
     flex-wrap: wrap;
-    margin-left: 43%;
     
 }
 .box{
